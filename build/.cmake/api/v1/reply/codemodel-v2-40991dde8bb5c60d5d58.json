@@ -1,0 +1,291 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/utility",
+					"jsonFile" : "directory-src.utility-Debug-77569dd1d53133694646.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/utility",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "src/capture",
+					"jsonFile" : "directory-src.capture-Debug-9bc92c7ce55e0ce87011.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/capture",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/sensors",
+					"jsonFile" : "directory-src.sensors-Debug-73ea3c0259c6a8aa3020.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/sensors",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/detect",
+					"jsonFile" : "directory-src.detect-Debug-7e9f381551e9a6631867.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/detect",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/track",
+					"jsonFile" : "directory-src.track-Debug-edf55c9989932896889c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/track",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/mouse",
+					"jsonFile" : "directory-src.mouse-Debug-7e08e9d33e27f051d84a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/mouse",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dart",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "utility",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "capture",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "sensors",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "detect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "track",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "mouse",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Dart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dart-Debug-d7a07edc3bf66a035b73.json",
+					"name" : "Dart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "capture::@b86024d9c0f24bb1697a",
+					"jsonFile" : "target-capture-Debug-c1a6b9f17b3718c0f8a1.json",
+					"name" : "capture",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "detect::@5a573f8668a64b45fc06",
+					"jsonFile" : "target-detect-Debug-7f9fbbe4e9a6a94245fb.json",
+					"name" : "detect",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flatbuffers_generated_schemas::@d11917d783b4c5ebb356",
+					"jsonFile" : "target-flatbuffers_generated_schemas-Debug-6851721df8bbdc5e8bc5.json",
+					"name" : "flatbuffers_generated_schemas",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mouse::@b09dae00c259f176f875",
+					"jsonFile" : "target-mouse-Debug-2db76171a452fed4c767.json",
+					"name" : "mouse",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sensors::@8d2b3ec0edc5ac3fa2bf",
+					"jsonFile" : "target-sensors-Debug-8251ba5eb466125959a7.json",
+					"name" : "sensors",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "track::@080afd618bc53dcaa7a4",
+					"jsonFile" : "target-track-Debug-c7eda74f923568395726.json",
+					"name" : "track",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utility::@d11917d783b4c5ebb356",
+					"jsonFile" : "target-utility-Debug-3b55832095096103f2cd.json",
+					"name" : "utility",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kyle/RM/2024_Dart_Algorithm/Vision_Code/build",
+		"source" : "/home/kyle/RM/2024_Dart_Algorithm/Vision_Code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

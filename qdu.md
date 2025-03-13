@@ -1,0 +1,2 @@
+删除CMake中指定的版本
+修改openvino.so的路径
