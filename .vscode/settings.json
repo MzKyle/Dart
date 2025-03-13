@@ -69,7 +69,14 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "*.ipp": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "charconv": "cpp",
+        "shared_mutex": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp",
+        "*.inc": "cpp",
+        "*.txx": "cpp"
     },
     "python.autoComplete.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages",

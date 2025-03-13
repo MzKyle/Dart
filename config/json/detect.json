@@ -2,7 +2,7 @@
   "path": {
     "xml": "../config/openvino/Katrin.xml",
     "bin": "../config/openvino/Katrin.bin",
-    "device": "CPU"
+    "device": "GPU"
   },
   "openvino": {
     "width": 640,
